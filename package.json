@@ -1,0 +1,45 @@
+{
+  "name": "@11ty/eleventy-data-transistor-fm",
+  "version": "1.0.0",
+  "description": "An Eleventy data plugin for transistor.fm episodes.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/11ty/eleventy-data-transistor-fm.git"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/11ty"
+  },
+  "keywords": [
+    "eleventy",
+    "eleventy-data",
+    "eleventy-plugin"
+  ],
+  "author": {
+    "name": "Zach Leatherman",
+    "email": "zachleatherman@gmail.com",
+    "url": "https://zachleat.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/11ty/eleventy-data-transistor-fm/issues"
+  },
+  "homepage": "https://github.com/11ty/eleventy-data-transistor-fm/",
+  "11ty": {
+    "compatibility": ">=0.12 || >= 1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0"
+  }
+}
