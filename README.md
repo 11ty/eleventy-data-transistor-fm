@@ -10,7 +10,7 @@ npm install @11ty/eleventy-data-transistor-fm
 
 ## Usage
 
-```
+```js
 const TransistorFmPlugin = require("@11ty/eleventy-data-transistor-fm");
 
 module.exports = function(eleventyConfig) {
@@ -42,7 +42,7 @@ You can make the key required or even change the name of the environment variabl
 ### Pass in options
 
 
-```
+```js
 const TransistorFmPlugin = require("@11ty/eleventy-data-transistor-fm");
 
 module.exports = function(eleventyConfig) {
