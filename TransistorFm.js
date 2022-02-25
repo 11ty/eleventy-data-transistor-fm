@@ -1,9 +1,9 @@
-const Cache = require("@11ty/eleventy-cache-assets");
+const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = async function(options = {}) {
   let { apiKey } = options;
 
-  const request = await Cache('https://api.transistor.fm/v1/episodes', {
+  const request = await EleventyFetch('https://api.transistor.fm/v1/episodes', {
     duration: "1d",
     type: "json",
     fetchOptions: {
