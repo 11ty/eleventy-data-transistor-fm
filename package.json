@@ -1,6 +1,6 @@
 {
   "name": "@11ty/eleventy-data-transistor-fm",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An Eleventy data plugin for transistor.fm episodes.",
   "publishConfig": {
     "access": "public"
